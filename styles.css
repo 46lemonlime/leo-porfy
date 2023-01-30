@@ -1,35 +1,30 @@
-*{
-    background-color: black;
+* {
+  background-color: black;
 }
 
-h1{
-color: azure;
+h1 {
+  color: azure;
 }
 
-.container{
-    height: 726px;
-    width: 726px;
-    background-color: grey;
-    border: solid 2px darkgrey;
-    display: flex;
-    flex-wrap: wrap;
+.container {
+  height: 726px;
+  width: 726px;
+  background-color: grey;
+  border: solid 2px darkgrey;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.square{
-    height: 240px;
-    width: 240px;
-    background-color: brown;
-    border: solid 1px black;
-    position: relative;
-    
-}
-
-.player-one{
-    border: solid 5px black;
-    border-radius: 50%;
-    height: 200px;
-    width: 200px;
-    background-color: brown;
-    margin: auto;
-    margin-top: 16px;
+.cell {
+  height: 240px;
+  width: 240px;
+  background-color: brown;
+  border: solid 1px black;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 56px;
+  font-family: sans-serif;
+  font-weight: 700;
 }
